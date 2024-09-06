@@ -1,6 +1,6 @@
 # SpotiToYt
 
-SpotiToYt is a Python application that allows users to transfer their Spotify playlists to YouTube. The application uses the Spotify API and YouTube Data API to search for songs on YouTube and create playlists.
+SpotiToYt is a Python application that tracks users spotify activity and creates youtube playlist based on your current activity. The application uses the Spotify API and YouTube Data API to search for songs on YouTube and create playlists.
 
 ## Resources used
 - Spotipy
@@ -68,6 +68,6 @@ Before you can use SpotiToYt, you need to create a Spotify Developer application
 
 2. The application will ask you to enter your `client_id`, `client_secret`, and `redirect_uri` for Spotify, and it will use the [`client_secret.json`] for YouTube.
 
-3. The application will then create a YouTube playlist based on your Spotify playlist.
+3. The application will then create a YouTube playlist based on your Spotify activity.
 
 Enjoy your music on YouTube!
