@@ -95,9 +95,10 @@ def listener():
         if video_id not in yt_playlist:
             youtube.add_song_playlist(youtube_playlist_id, video_id)
             yt_playlist.append(video_id)
+            print(f'Added {track_name} by {artist} to playlist')
+        else:
+            print('Song already in playlist')
         take_break(track_name, artist)
-
-    pass
 
 def wait():
     global wait_time
