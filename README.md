@@ -1,18 +1,12 @@
 # SpotiToYt
 
-SpotiToYt is a Python application that tracks users spotify activity and creates youtube playlist based on your current activity. The application uses the Spotify API and YouTube Data API to search for songs on YouTube and create playlists.
+SpotiToYt is a Python application that tracks users spotify activity and creates youtube playlist based on your current activity.
 
 ## Resources used
 - Spotipy
 - Pytube
 - Google Auth OAuthlib
 - Google API Python Client
-
-## Features
-
-- Create a YouTube playlist based on a Spotify playlist
-- Search for songs on YouTube using Spotify track information
-- Add songs to the created YouTube playlist
 
 ## Before you install
 
