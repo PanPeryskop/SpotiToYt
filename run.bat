@@ -28,5 +28,5 @@ if !NEW_COMMITS! neq 0 (
     echo The application is up to date.
 )
 
-python SpotiToYt.py
+python Spoti-to-Yt.py
 exit
